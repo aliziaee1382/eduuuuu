@@ -1,0 +1,6 @@
+{
+  "name": "پلتفرم آموزش برنامه‌نویسی | مکتب‌کد",
+  "description": "پلتفرم جامع آموزش و پخش آنلاین دوره‌های برنامه‌نویسی با پخش هوشمند ویدیو، مسیرهای یادگیری، صدور گواهینامه معتبر و پنل مدیریت و مدرسین",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

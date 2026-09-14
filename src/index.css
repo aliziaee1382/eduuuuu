@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@import url('https://cdn.fontcdn.ir/Font/Persian/Titr/Titr.css');
+@import url('https://cdn.fontcdn.ir/Font/Persian/Koodak/Koodak.css');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Titr';
+  src: local('B Titr'), local('Titr');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Koodak';
+  src: local('B Koodak'), local('Koodak');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    font-family: 'Koodak', 'B Koodak', 'Vazirmatn', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-titr {
+    font-family: 'Titr', 'B Titr', 'Lalezar', 'Vazirmatn', system-ui, sans-serif;
+    letter-spacing: 0;
+  }
+
+  p, span, button, a, input, select, textarea, label, td, th, li, .font-koodak {
+    font-family: 'Koodak', 'B Koodak', 'Vazirmatn', system-ui, sans-serif;
+  }
+}
+
+/* Custom sleek scrollbar for code/lists */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(71, 85, 105, 0.8);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.9);
+}
